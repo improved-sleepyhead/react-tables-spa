@@ -1,0 +1,77 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Claude local settings and local runtime data
+.claude/settings.local.json
+.claude/history/
+.claude/worktrees/
+.claude/cache/
+.claude/tmp/
+.claude/logs/
+
+# Optional: local-only generated agents or experiments
+.claude/agents-local/
+.claude/**/*.local.md
+
+# Ralph local runtime files
+.ralph/
+.ralph-cache/
+.ralph-state/
+.ralph-logs/
+.ralph*.log
+
+# Progress / local task tracking
+progress.md
+
+# Optional local task copies
+tasks.local.json
+tasks.generated.json
+
+# AI scratchpads / temp notes
+.ai/
+.ai-cache/
+.ai-notes/
+scratch/
+tmp/
+temp/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+AGENTS.md
+tasks.json
+.claude/agents/
+.claude/hooks/
+scripts/ralph/
