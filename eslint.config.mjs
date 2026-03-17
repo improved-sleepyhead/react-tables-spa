@@ -333,5 +333,13 @@ export default defineConfig(
         }
       ]
     }
+  },
+
+  // app layer is the composition root — it imports from all layers via public API
+  {
+    files: ["src/app/**/*.{ts,tsx}"],
+    rules: {
+      "import/no-internal-modules": "off"
+    }
   }
 )
