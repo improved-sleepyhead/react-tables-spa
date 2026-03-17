@@ -1,0 +1,235 @@
+{
+  "groups": [
+    { "id": "g1", "name": "Management" },
+    { "id": "g2", "name": "Accounting" },
+    { "id": "g3", "name": "HR" },
+    { "id": "g4", "name": "IT" }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "firstName": "Anna",
+      "lastName": "Ivanova",
+      "account": "aivanova",
+      "email": "anna@example.com",
+      "phone": "+79990000001",
+      "group": { "id": "g1", "name": "Management" }
+    },
+    {
+      "id": "u2",
+      "firstName": "Petr",
+      "lastName": "Sidorov",
+      "account": "psidorov",
+      "email": "petr@example.com",
+      "phone": "+79990000002",
+      "group": null
+    },
+    {
+      "id": "u3",
+      "firstName": "Elena",
+      "lastName": "Kuznetsova",
+      "account": "ekuznetsova",
+      "email": "elena@example.com",
+      "phone": "+79990000003",
+      "group": { "id": "g2", "name": "Accounting" }
+    },
+    {
+      "id": "u4",
+      "firstName": "Dmitry",
+      "lastName": "Volkov",
+      "account": "dvolkov",
+      "email": "dmitry@example.com",
+      "phone": "+79990000004",
+      "group": { "id": "g3", "name": "HR" }
+    },
+    {
+      "id": "u5",
+      "firstName": "Maria",
+      "lastName": "Petrova",
+      "account": "mpetrova",
+      "email": "maria@example.com",
+      "phone": "+79990000005",
+      "group": { "id": "g4", "name": "IT" }
+    },
+    {
+      "id": "u6",
+      "firstName": "Sergey",
+      "lastName": "Morozov",
+      "account": "smorozov",
+      "email": "sergey@example.com",
+      "phone": "+79990000006",
+      "group": { "id": "g1", "name": "Management" }
+    },
+    {
+      "id": "u7",
+      "firstName": "Olga",
+      "lastName": "Sokolova",
+      "account": "osokolova",
+      "email": "olga@example.com",
+      "phone": "+79990000007",
+      "group": null
+    },
+    {
+      "id": "u8",
+      "firstName": "Alexey",
+      "lastName": "Lebedev",
+      "account": "alebedev",
+      "email": "alexey@example.com",
+      "phone": "+79990000008",
+      "group": { "id": "g2", "name": "Accounting" }
+    },
+    {
+      "id": "u9",
+      "firstName": "Natalia",
+      "lastName": "Kozlova",
+      "account": "nkozlova",
+      "email": "natalia@example.com",
+      "phone": "+79990000009",
+      "group": { "id": "g3", "name": "HR" }
+    },
+    {
+      "id": "u10",
+      "firstName": "Ivan",
+      "lastName": "Novikov",
+      "account": "inovikov",
+      "email": "ivan@example.com",
+      "phone": "+79990000010",
+      "group": { "id": "g4", "name": "IT" }
+    },
+    {
+      "id": "u11",
+      "firstName": "Tatiana",
+      "lastName": "Fedorova",
+      "account": "tfedorova",
+      "email": "tatiana@example.com",
+      "phone": "+79990000011",
+      "group": { "id": "g1", "name": "Management" }
+    },
+    {
+      "id": "u12",
+      "firstName": "Andrey",
+      "lastName": "Mikhailov",
+      "account": "amikhailov",
+      "email": "andrey@example.com",
+      "phone": "+79990000012",
+      "group": null
+    },
+    {
+      "id": "u13",
+      "firstName": "Ekaterina",
+      "lastName": "Pavlova",
+      "account": "epavlova",
+      "email": "ekaterina@example.com",
+      "phone": "+79990000013",
+      "group": { "id": "g2", "name": "Accounting" }
+    },
+    {
+      "id": "u14",
+      "firstName": "Viktor",
+      "lastName": "Semenov",
+      "account": "vsemenov",
+      "email": "viktor@example.com",
+      "phone": "+79990000014",
+      "group": { "id": "g4", "name": "IT" }
+    },
+    {
+      "id": "u15",
+      "firstName": "Yulia",
+      "lastName": "Golubeva",
+      "account": "ygolubeva",
+      "email": "yulia@example.com",
+      "phone": "+79990000015",
+      "group": { "id": "g3", "name": "HR" }
+    },
+    {
+      "id": "u16",
+      "firstName": "Konstantin",
+      "lastName": "Orlov",
+      "account": "korlov",
+      "email": "konstantin@example.com",
+      "phone": "+79990000016",
+      "group": null
+    },
+    {
+      "id": "u17",
+      "firstName": "Irina",
+      "lastName": "Makarova",
+      "account": "imakarova",
+      "email": "irina@example.com",
+      "phone": "+79990000017",
+      "group": { "id": "g1", "name": "Management" }
+    },
+    {
+      "id": "u18",
+      "firstName": "Roman",
+      "lastName": "Andreev",
+      "account": "randreev",
+      "email": "roman@example.com",
+      "phone": "+79990000018",
+      "group": { "id": "g2", "name": "Accounting" }
+    },
+    {
+      "id": "u19",
+      "firstName": "Svetlana",
+      "lastName": "Kovalenko",
+      "account": "skovalenko",
+      "email": "svetlana@example.com",
+      "phone": "+79990000019",
+      "group": { "id": "g4", "name": "IT" }
+    },
+    {
+      "id": "u20",
+      "firstName": "Nikolay",
+      "lastName": "Stepanov",
+      "account": "nstepanov",
+      "email": "nikolay@example.com",
+      "phone": "+79990000020",
+      "group": null
+    },
+    {
+      "id": "u21",
+      "firstName": "Valentina",
+      "lastName": "Belova",
+      "account": "vbelova",
+      "email": "valentina@example.com",
+      "phone": "+79990000021",
+      "group": { "id": "g3", "name": "HR" }
+    },
+    {
+      "id": "u22",
+      "firstName": "Maxim",
+      "lastName": "Tarasov",
+      "account": "mtarasov",
+      "email": "maxim@example.com",
+      "phone": "+79990000022",
+      "group": { "id": "g1", "name": "Management" }
+    },
+    {
+      "id": "u23",
+      "firstName": "Daria",
+      "lastName": "Guseva",
+      "account": "dguseva",
+      "email": "daria@example.com",
+      "phone": "+79990000023",
+      "group": null
+    },
+    {
+      "id": "u24",
+      "firstName": "Artem",
+      "lastName": "Kiselev",
+      "account": "akiselev",
+      "email": "artem@example.com",
+      "phone": "+79990000024",
+      "group": { "id": "g4", "name": "IT" }
+    },
+    {
+      "id": "u25",
+      "firstName": "Polina",
+      "lastName": "Zaitseva",
+      "account": "pzaitseva",
+      "email": "polina@example.com",
+      "phone": "+79990000025",
+      "group": { "id": "g2", "name": "Accounting" }
+    }
+  ]
+}
