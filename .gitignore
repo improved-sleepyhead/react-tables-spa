@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*
@@ -70,8 +71,9 @@ Thumbs.db
 *.swp
 *.swo
 
+CLAUDE-5h.md
 AGENTS.md
 tasks.json
-.claude/agents/
-.claude/hooks/
+.claude/
 scripts/ralph/
+ARCHITECTURE-UserManagementSPA-corrected.md

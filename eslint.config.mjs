@@ -99,7 +99,7 @@ const higherThanPages = [
 
 export default defineConfig(
   {
-    ignores: ["dist/**", "coverage/**", "node_modules/**", "*.d.ts"]
+    ignores: ["dist/**", "coverage/**", "node_modules/**", "*.d.ts", "eslint.config.mjs"]
   },
 
   js.configs.recommended,
@@ -107,7 +107,10 @@ export default defineConfig(
   tseslint.configs.stylisticTypeChecked,
   reactPlugin.configs.flat.recommended,
   reactPlugin.configs.flat["jsx-runtime"],
-  reactHooks.configs.recommended,
+  {
+    plugins: { "react-hooks": reactHooks },
+    rules: reactHooks.configs.recommended.rules
+  },
 
   {
     files: ["src/**/*.{ts,tsx}", "vite.config.ts"],
